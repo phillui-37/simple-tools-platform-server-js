@@ -1,0 +1,23 @@
+# dep
+**/node_modules/**
+
+# test related
+coverage
+jest
+.jest-cache
+
+# release related
+dist
+lib
+
+# os specific
+.DS_Store
+*.Zone.Identifier
+
+# ide
+.vscode/
+.idea/
+
+# lock files other than pnpm
+package-lock.json
+yarn.lock
